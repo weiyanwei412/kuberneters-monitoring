@@ -68,6 +68,8 @@ receivers:
 - name: 'mails'
   email_configs:
   - to: '412166174@qq.com'
+    headers: { Subject: " 测试环境 k8s warning" }
+    send_resolved: true
 - name: 'wechat'
   wechat_configs:
   - send_resolved: true
