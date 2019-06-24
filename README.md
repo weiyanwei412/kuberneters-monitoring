@@ -1,6 +1,6 @@
 ## 使用文档
 - 修改 alertmanager.yaml中的邮件或者钉钉调用
-- 修改 mail-template.tmpl 中     <strong>阿里云prod-Labels</strong><br />  为自己环境标识符
+- 修改 alertmanager.yaml  headers: { Subject: " 测试环境 k8s warning" }  区分环境标识符
 - 修改 deploy中etcd ssl证书位置
 - sh deploy  部署prometheus监控pod 
 - kubectl -n monitoring get po  查看pod状态
