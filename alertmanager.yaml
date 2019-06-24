@@ -1,7 +1,7 @@
 # global块配置下的配置选项在本配置文件内的所有配置项下可见
 global:
   # 在Alertmanager内管理的每一条告警均有两种状态: "resolved"或者"firing". 在altermanager首次发送告警通知后, 该告警会一直处于firing状态,设置resolve_timeout可以指定处于firing状态的告警间隔多长时间会被设置为resolved状态, 在设置为resolved状态的告警后,altermanager不会再发送firing的告警通知.
-  resolve_timeout: 1h
+  resolve_timeout: 5m
 
   # 邮件告警配置
   smtp_smarthost: 'smtp.exmail.qq.com:25'
