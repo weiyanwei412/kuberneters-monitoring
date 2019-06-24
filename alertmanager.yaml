@@ -5,9 +5,9 @@ global:
 
   # 邮件告警配置
   smtp_smarthost: 'smtp.exmail.qq.com:25'
-  smtp_from: 'warn@flaginfo.com.cn'
-  smtp_auth_username: 'warn@flaginfo.com.cn'
-  smtp_auth_password: 'eaK19yz9ha4FQ7'
+  smtp_from: '*****'
+  smtp_auth_username: '412166174@qq.com'
+  smtp_auth_password: '******'
   # HipChat告警配置
   # hipchat_auth_token: '123456789'
   # hipchat_auth_url: 'https://hipchat.foobar.org/'
@@ -67,7 +67,7 @@ inhibit_rules:
 receivers:
 - name: 'mails'
   email_configs:
-  - to: 'warn_admin@flaginfo.com.cn'
+  - to: '412166174@qq.com'
 - name: 'wechat'
   wechat_configs:
   - send_resolved: true
