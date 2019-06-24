@@ -308,7 +308,7 @@ a {
                 {{ range .Alerts.Firing }}
                 <tr>
                   <td class="content-block">
-                    <strong>浙江智慧党建-Labels</strong><br />
+                    <strong>阿里云prod-Labels</strong><br />
                     {{ range .Labels.SortedPairs }}{{ .Name }} = {{ .Value }}<br />{{ end }}
                     {{ if gt (len .Annotations) 0 }}<strong>Annotations</strong><br />{{ end }}
                     {{ range .Annotations.SortedPairs }}{{ .Name }} = {{ .Value }}<br />{{ end }}
@@ -336,7 +336,7 @@ a {
                 {{ range .Alerts.Resolved }}
                 <tr>
                   <td class="content-block">
-                    <strong>浙江智慧党建-Labels</strong><br />
+                    <strong>阿里云prod-Labels</strong><br />
                     {{ range .Labels.SortedPairs }}{{ .Name }} = {{ .Value }}<br />{{ end }}
                     {{ if gt (len .Annotations) 0 }}<strong>Annotations</strong><br />{{ end }}
                     {{ range .Annotations.SortedPairs }}{{ .Name }} = {{ .Value }}<br />{{ end }}
