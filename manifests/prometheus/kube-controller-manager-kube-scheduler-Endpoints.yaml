@@ -7,8 +7,8 @@ metadata:
   namespace: kube-system
 subsets:
 - addresses:
-  - ip: 10.101.11.1
-  - ip: 10.101.11.2
+  - ip: 172.18.1.9
+  - ip: 172.18.1.10
   ports:
   - name: http-metrics
     port: 10252
@@ -23,8 +23,8 @@ metadata:
   namespace: kube-system
 subsets:
 - addresses:
-  - ip: 10.101.11.1
-  - ip: 10.101.11.2
+  - ip: 172.18.1.9
+  - ip: 172.18.1.10
   ports:
   - name: http-metrics
     port: 10251
